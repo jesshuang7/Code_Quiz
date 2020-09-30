@@ -222,7 +222,7 @@ submitEl.addEventListener("click", function(){
   localStorage.setItem(initialsEl.value, secondsLeft);
 
   // redirect to high score page
-  window.location.assign("./assets/highscore.html");
+  window.location.assign("./Assets/highscore.html");
   };
   
 });
