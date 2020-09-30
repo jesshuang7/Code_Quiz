@@ -26,7 +26,7 @@ The focus of this project was to build a timed coding quiz with multiple-choice 
 
 ### HTML:
 * [index.html](https://github.com/jesshuang7/Code_Quiz/blob/master/index.html)
-* [highscore.html](https://github.com/jesshuang7/Code_Quiz/blob/master/Assests/highscore.html)
+* [highscore.html](https://github.com/jesshuang7/Code_Quiz/blob/master/Assets/highscore.html)
 
 ### Assets:
 * [style.css](https://github.com/jesshuang7/Code_Quiz/blob/master/Assets/style.css)
