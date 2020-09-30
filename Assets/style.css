@@ -1,0 +1,88 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+head {
+    background-color: #9da0a6;
+
+}
+
+.menu {
+    background-color: #9da0a6;
+    padding-top: 12px;
+    padding-bottom: 7px;
+}
+
+.HS a {
+    color: #f2f2f2;
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+.HS a:hover {
+    color: #e2e2e2;
+    text-decoration: none;
+}
+
+#time {
+    color: #f2f2f2;
+}
+
+#timer {
+    color: #f2f2f2;
+}
+
+body {
+    background-image: url("./background.jpg")
+}
+
+.card {
+    padding: 50px;
+    max-width: 100%;
+    /* background-color: #f5e6cb !important; */
+
+}
+
+/* hide quiz in default */
+#quiz {
+    display: none;
+    
+}
+
+#start {
+    background-color: #9da0a6;
+    border-color: #9da0a6;
+}
+
+.btn {
+    margin: 2px;
+    background-color: #9da0a6 !important;
+    border-color: #9da0a6 !important;
+
+}
+
+.btn:hover {
+    box-shadow: 0 0 0 .2rem rgba(91, 194, 194, 0.5);
+}
+
+#comment {
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    font-style: italic;
+    padding-left: 20%;
+    padding-top: 10px;
+}
+
+/* hide end in default */
+#end {
+    display: none;
+}
+
+/* .answers {
+    background-color: transparent !important;
+    
+} */
+
+/* disable the numbers for the ordered list*/

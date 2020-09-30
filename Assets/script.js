@@ -186,6 +186,7 @@ function questionsClick(){
 
 }
 
+var finalScoreEl = document.getElementById("finalscore");
 
 function quizEnd(){
 
@@ -204,7 +205,6 @@ function quizEnd(){
 
 
   // show final score
-  var finalScoreEl = document.getElementById("finalscore");
   finalScoreEl.textContent = secondsLeft;
 }
 
@@ -214,4 +214,15 @@ function quizEnd(){
 var submitEl = document.getElementById("submit");
 var initialsEl = document.getElementById("initials");
 
-submitEl.onclick = highscore 
+submitEl.addEventListener("click", function(){
+  console.log(initialsEl.value);
+
+  if (initialsEl !== "") {
+  // get values from local storage  
+  localStorage.setItem(initialsEl.value, secondsLeft);
+
+  // redirect to high score page
+  window.location.assign("./assets/highscore.html");
+  };
+  
+});
